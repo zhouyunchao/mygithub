@@ -12,7 +12,7 @@ import com.grade.service.StudentsService;
 
 @Controller
 public class StudentsController {
-	@Autowired//我的ffff
+	@Autowired//   WPS搜索我的ffff
 	private StudentsService tudentsService;
     @RequestMapping("/getAllStu.do")
 	public String getAllStu(Model model)throws Exception{
