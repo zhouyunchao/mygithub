@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd 
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd"	
+	>
+ <!-- 1.springmvc配置文件中使用bean标签定义用户控制器       ???? 不用注解 -->   
+<!-- <bean name="/login.do" class="com.controller.LoginController"></bean> -->
+
+<!-- 2.在springmvc配置文件中添加扫描注解的配置 -->
+<context:component-scan base-package="com.grade.controller"></context:component-scan>
+</beans>
