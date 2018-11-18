@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.grade.entity.Students;
 import com.grade.service.StudentsService;
 
-@Controller
+@Controller//konzdsafda
 public class StudentsController {
 	@Autowired//   WPS搜索我的ffff
 	private StudentsService tudentsService;
