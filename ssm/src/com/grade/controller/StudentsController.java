@@ -14,7 +14,9 @@ import com.grade.service.StudentsService;
 public class StudentsController {
 	@Autowired//   WPS搜索我的ffff
 	private StudentsService tudentsService;
-    @RequestMapping("/getAllStu.do")
+    
+
+	@RequestMapping("/getAllStu.do")
 	public String getAllStu(Model model)throws Exception{
     	List<Students> list=tudentsService.getAllStu();
     	model.addAttribute("list", list);
