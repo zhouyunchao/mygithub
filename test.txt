@@ -5,3 +5,5 @@ git1提交数据
 aaaa
 sss
 :
+amend
+
